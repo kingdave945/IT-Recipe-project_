@@ -1,0 +1,50 @@
+@media (max-width: 835px) {
+    header {
+       font-size: 0.6rem;
+      }
+      .search-container {
+      
+        max-width: 70%;
+        width: 40%;
+      }
+      .search-container button{
+       font-size: 0.6rem;
+       padding-right: 35px;
+      
+      }
+    .first ul {
+      flex-direction: column;
+    }
+  
+    
+    #first,
+    #second,
+    #third {
+      transform: none;
+      z-index: auto;
+    }
+
+  }
+  @media (max-width: 466px) {
+    ul a {
+        padding: 1px;
+       text-decoration: none;
+       color: rgb(30, 30, 70);
+     }
+    header{
+        font-size: 0.4rem;
+    }
+    .first-search svg{
+        display: block;
+      }
+      .search-container input ,button{
+        display: none;
+      }
+  }
+  @media ( max-width: 401) {
+    ul a {
+       
+       text-decoration: none;
+       color: rgb(30, 30, 70);
+     }
+  }
