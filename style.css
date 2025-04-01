@@ -149,7 +149,23 @@
     margin: 0;
     padding: 10px;
   }
-  
+  ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown {
+    width: 100%;
+    background: #ffffff;
+    position: absolute;
+
+    display: none;
+}
+
+
+
+ul li:hover ul.dropdown {
+    display: block;
+}
   /*  
     #results {
       margin-top: 60px;
@@ -273,11 +289,14 @@
   }
   
   #meals {
+ 
     text-align: center;
     padding: 40px 20px;
     background: #e3e2e25a;
   }
-  
+  #meals .search-container{
+    align-content: center;
+  }
   .section-title h2 {
     font-size: 28px;
     margin-bottom: 10px;
